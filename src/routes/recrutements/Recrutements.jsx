@@ -73,20 +73,20 @@ function Recrutements() {
                         Volontaire
                     </button>
                     <button
-                        onClick={() => setSelectedOption('benevoles')}
+                        onClick={() => setSelectedOption('participez à nos emissions')}
                         className={`block w-full text-left py-2 px-4 rounded ${
                         selectedOption === 'benevoles' ? 'bg-gray-700' : ''
                         }`}
                     >
-                        Bénévoles
+                        acteur d'emissions
                     </button>
                     <button
-                        onClick={() => setSelectedOption('emplois')}
+                        onClick={() => setSelectedOption('faire un stage ')}
                         className={`block w-full text-left py-2 px-4 rounded ${
                         selectedOption === 'emplois' ? 'bg-gray-700' : ''
                         }`}
                     >
-                        stage
+                        stagiaire
                     </button>
                     </nav>
                 </div>
@@ -124,9 +124,10 @@ function Recrutements() {
                     <div>
                         <label className="block text-gray-700">Choix de l'indice du pays</label>
                         <select className="w-full p-2 border rounded">
-                        <option>France</option>
-                        <option>Belgique</option>
-                        <option>Suisse</option>
+                        <option>Gabon</option>
+                        <option>Cameroun</option>
+                        <option>Tchad</option>
+                        <option>Cote D'ivoire</option>
                         {/* Ajoutez d'autres options de pays ici */}
                         </select>
                     </div>

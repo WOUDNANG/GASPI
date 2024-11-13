@@ -35,35 +35,42 @@ export default function Home() {
             <div className="grid grid-cols-2 sm:grid-cols-5 lg:grid-cols-5 gap-10">
               <div className="bg-orange-400  p-6 rounded-lg shadow hover:shadow-xl transition-shadow duration-300 ease-in-out flex flex-col items-center">
                 <div className="mb-4"><FaThemeco size={40} color={"white"}/></div>
-                <Link to="/themes">
+                
                 <h3 className="text-lg-white font-bold mb-2 text-center text-white">
                   Nos différents thèmes 
                 </h3>
-                </Link>
+              
               </div>
               <div className="bg-orange-400  p-6 rounded-lg shadow hover:shadow-xl transition-shadow duration-300 ease-in-out flex flex-col items-center">
                 <div className="mb-4"><FaProjectDiagram size={40} color={"white"}/></div>
-                <Link to="/programmes">
+                
                 <h3 className="text-lg-white font-bold mb-2 text-center text-white">
                   Découvrez nos programmes
                 </h3>
-                </Link>
+                
               </div>
               <div className="bg-orange-400  p-6 rounded-lg shadow hover:shadow-xl transition-shadow duration-300 ease-in-out flex flex-col items-center">
                 <div className="mb-4"><FaInfo size={40} color={"white"}/></div>
-                <Link to="/actualites">
+                
                 <h3 className="text-lg-white font-bold mb-2 text-center text-white">
                   toutes nos dernières actualités
                 </h3>
-                </Link>
+              
               </div>
               <div className="bg-orange-400 p-6 rounded-lg shadow hover:shadow-xl transition-shadow duration-300 ease-in-out flex flex-col items-center">
                 <div className="mb-4"><FaRegCaretSquareUp size={40} color={"white"}/></div>
-                <Link to="/recrutements">
+              
                 <h3 className="text-lg-white font-bold mb-2 text-center text-white">
-                  venez participer  
+                  venez participer , 
                 </h3>
-                </Link>
+              </div>
+              <div className="bg-teal-900 p-6 rounded-lg shadow hover:shadow-xl transition-shadow duration-300 ease-in-out flex flex-col items-center">
+                <div className="mb-4"><FaDonate size={40} color={"white"}/></div>
+                
+                <h3 className="text-lg-white font-bold mb-2 text-center text-white">
+                  retrouvez nos articles les plus passionant!.
+                </h3>
+              
               </div>
               
             </div>
@@ -72,12 +79,12 @@ export default function Home() {
           <div className="py-12 flex justify-center items-center" style={{marginTop:"3%"}}>
             <div className="container mx-auto px-4 flex flex-col items-center">
               <div className="w-full max-w-4xl">
-                <h2 className="text-3xl font-bold mb-4 text-center">Wafrica TV: Au de-la des ideés recues</h2>
+                <h2 className="text-3xl font-bold mb-4 text-center">Wafrica TV: Au de-là des ideés recues</h2>
                 <div className="">
                   <div className="mx-auto" style={{ maxWidth: 'max-content' }}>
                     <p className="text-gray-700 text-center">WAFRICA TV est une chaine télévisé mise sur pied en Mars 2021 avec pour objectifs majeur le promotion de litterature scientifique et la recherche à travers la télévision.
                       notre mission est de sensibiliser et de proposer des solutions aux divers problemes qui mines notre societé. 
-                      nous entendons ètre un leader médiatique en Afrique, et envisageons de donner un autre type de contenu média au public assoiffé de connaissances en vue de comprendre les phénomènes sociaux et de pouvoir améliorer individuellement ou en communauté leurs conditions de vie. 
+                      nous aspirons à ètre un leader médiatique en Afrique, et envisageons de donner un autre type de contenu média au public en quète de connaissances en vue de comprendre les phénomènes sociaux et de pouvoir améliorer individuellement ou en communauté leurs conditions de vie. 
                       Parce que le livre est l’un des premiers outils de compréhension du monde, nous nous attèlons à faire la promotion de tous les auteurs et des environnements de recherche.</p>
                   </div>
                   <div className="py-12">
@@ -176,33 +183,32 @@ export default function Home() {
           {/* Section Agenda */}
           <section className="bg-orange-400 text-white py-12">
             <div className="container mx-auto px-4">
-              <h2 className="text-3xl font-bold mb-4 text-center" style={{marginBottom:"2%", marginTop:"3%"}}>AGENDA</h2>
+              <h2 className="text-3xl font-bold mb-4 text-center" style={{marginBottom:"2%", marginTop:"3%"}}>Grille des programmes</h2>
               <div className="flex justify-between">
                 <div className="bg-white text-black p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 w-1/3">
-                  <h3 className="text-xl font-semibold mb-2">Réunion de suivi des projets communautaires</h3>
-                  <p className="text-gray-700">30 Juillet</p>
+                  <h3 className="text-xl font-semibold mb-2">Les Grandes Questions</h3>
+                  <p className="text-gray-700">De 15h30 à 17h</p>
                 </div>
                 <div className="bg-white text-black p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 w-1/3 mx-4">
-                  <h3 className="text-xl font-semibold mb-2">Assemblée générale des bénévoles</h3>
-                  <p className="text-gray-700">04 Aout</p>
+                  <h3 className="text-xl font-semibold mb-2">La Efe A!</h3>
+                  <p className="text-gray-700">De 17h30 à 19h</p>
                 </div>
                 <div className="bg-white text-black p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 w-1/3">
-                  <h3 className="text-xl font-semibold mb-2">Atelier sur la participation citoyenne</h3>
-                  <p className="text-gray-700">16 Septembre</p>
+                  <h3 className="text-xl font-semibold mb-2">VOX POP</h3>
+                  <p className="text-gray-700">De 13h à 14h</p>
                 </div>
                 <div className="bg-white text-black p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 w-1/3 mx-4">
-                  <h3 className="text-xl font-semibold mb-2">Conférence sur l'environnement</h3>
-                  <p className="text-gray-700">8 Octobre</p>
+                  <h3 className="text-xl font-semibold mb-2">Wafrica news suivie de notre programmes interrogeons nous </h3>
+                  <p className="text-gray-700">De 20h à 21h</p>
                 </div>
                 <div className="bg-white text-black p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 w-1/3">
-                  <h3 className="text-xl font-semibold mb-2">Journée d'échange sur la mobilité durable</h3>
-                  <p className="text-gray-700">25 Octobtre</p>
+                  <h3 className="text-xl font-semibold mb-2">la Zen Po'o</h3>
+                  <p className="text-gray-700">De 21h à 22h30</p>
                 </div>
               </div>
               <Link to="/actualites">
                 <button className="mt-6 bg-white text-black py-2 px-4 rounded hover:bg-gray-200 transition duration-300">Tous les événements</button>
               </Link>
-              
             </div>
           </section>
 
@@ -211,17 +217,7 @@ export default function Home() {
             <div className="container mx-auto px-4">
               <h2 className="text-3xl font-bold mb-8 text-center">NOS RÉSEAUX</h2>
               <div className="flex flex-wrap justify-center gap-8">
-                <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 w-80">
-                  <img src={home6} alt="Réseau 1" className="w-full h-64 rounded-lg mb-4 object-cover" />
-                  <p className="text-gray-700 text-center">Suivez-nous sur nos différents réseaux pour ne rien rater</p><br />
-                  <div className="flex space-x-4" style={{marginLeft:"10%"}}>
-                    <a href="#" className="hover:text-blue-500"><i><FaFacebook size={30} /></i></a>
-                    <a href="#" className="hover:text-blue-500"><i><FaTwitter size={30} /></i></a>
-                    <a href="#" className="hover:text-red-500"><i><FaInstagram size={30} /></i></a>
-                    <a href="#" className="hover:text-blue-500"><i><FaLinkedin size={30} /></i></a>
-                    <a href="#" className="hover:text-red-500"><i><FaYoutube size={30} /></i></a>
-                  </div>
-                </div>
+                
                 <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 w-80">
                   <img src={home7} alt="Réseau 2" className="w-full h-64 rounded-lg mb-4 object-cover" />
                   <p className="text-gray-700 text-center">Suivez-nous sur nos différents réseaux pour ne rien rater</p><br />
@@ -233,17 +229,7 @@ export default function Home() {
                     <a href="#" className="hover:text-red-500"><i><FaYoutube size={30} /></i></a>
                   </div>
                 </div>
-                <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 w-80">
-                  <img src={home8} alt="Réseau 3" className="w-full h-64 rounded-lg mb-4 object-cover" />
-                  <p className="text-gray-700 text-center">Suivez-nous sur nos différents réseaux pour ne rien rater</p><br />
-                  <div className="flex space-x-4" style={{marginLeft:"10%"}}>
-                    <a href="#" className="hover:text-blue-500"><i><FaFacebook size={30} /></i></a>
-                    <a href="#" className="hover:text-blue-500"><i><FaTwitter size={30} /></i></a>
-                    <a href="#" className="hover:text-red-500"><i><FaInstagram size={30} /></i></a>
-                    <a href="#" className="hover:text-blue-500"><i><FaLinkedin size={30} /></i></a>
-                    <a href="#" className="hover:text-red-500"><i><FaYoutube size={30} /></i></a>
-                  </div>
-                </div>
+                
               </div>
             </div>
           </section>

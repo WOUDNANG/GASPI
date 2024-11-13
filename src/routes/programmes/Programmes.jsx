@@ -49,7 +49,11 @@ function Programmes() {
         <div className="container mx-auto px-4 max-w-4xl">
           <h2 className="text-3xl font-bold mb-4">En ce moment nos Programmes sur WAFRICA TV</h2>
           <div className="flex justify-between mb-4">
-            <button className="bg-blue-500 text-white px-4 py-2 rounded">Toutes nos programmes vidéo en un clic</button>
+            <button className="bg-blue-500 text-white px-4 py-2 rounded">
+             <a href="http://www.youtube.com/@WafricaTV" className="souscribe-button">
+            Toutes nos programmes vidéo en un clic
+             </a>
+            </button>
           </div>
           <div className="bg-white p-4">
             <main className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -91,29 +95,29 @@ function Programmes() {
       </section>
 
       {/* Section Agenda */}
-      <section className="bg-orange-400 text-white py-12">
+          <section className="bg-orange-400 text-white py-12">
             <div className="container mx-auto px-4">
-              <h2 className="text-3xl font-bold mb-4 text-center" style={{marginBottom:"2%", marginTop:"3%"}}>AGENDA</h2>
+              <h2 className="text-3xl font-bold mb-4 text-center" style={{marginBottom:"2%", marginTop:"3%"}}>Grille des programmes</h2>
               <div className="flex justify-between">
                 <div className="bg-white text-black p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 w-1/3">
-                  <h3 className="text-xl font-semibold mb-2">Réunion de suivi des projets communautaires</h3>
-                  <p className="text-gray-700">30 Juillet</p>
+                  <h3 className="text-xl font-semibold mb-2">Les Grandes Questions</h3>
+                  <p className="text-gray-700">De 15h30 à 17h</p>
                 </div>
                 <div className="bg-white text-black p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 w-1/3 mx-4">
-                  <h3 className="text-xl font-semibold mb-2">Assemblée générale des bénévoles</h3>
-                  <p className="text-gray-700">04 Aout</p>
+                  <h3 className="text-xl font-semibold mb-2">La Efe A!</h3>
+                  <p className="text-gray-700">De 17h30 à 19h</p>
                 </div>
                 <div className="bg-white text-black p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 w-1/3">
-                  <h3 className="text-xl font-semibold mb-2">Atelier sur la participation citoyenne</h3>
-                  <p className="text-gray-700">16 Septembre</p>
+                  <h3 className="text-xl font-semibold mb-2">VOX POP</h3>
+                  <p className="text-gray-700">De 13h à 14h</p>
                 </div>
                 <div className="bg-white text-black p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 w-1/3 mx-4">
-                  <h3 className="text-xl font-semibold mb-2">Conférence sur l'environnement</h3>
-                  <p className="text-gray-700">8 Octobre</p>
+                  <h3 className="text-xl font-semibold mb-2">Wafrica news suivie de notre programmes interrogeons nous </h3>
+                  <p className="text-gray-700">De 20h à 21h</p>
                 </div>
                 <div className="bg-white text-black p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 w-1/3">
-                  <h3 className="text-xl font-semibold mb-2">Journée d'échange sur la mobilité durable</h3>
-                  <p className="text-gray-700">25 Octobtre</p>
+                  <h3 className="text-xl font-semibold mb-2">la Zen Po'o</h3>
+                  <p className="text-gray-700">De 21h à 22h30</p>
                 </div>
               </div>
               <Link to="/actualites">

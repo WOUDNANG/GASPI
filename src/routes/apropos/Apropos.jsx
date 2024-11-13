@@ -53,7 +53,7 @@ function Apropos() {
 
       <section className="bg-orange-400 text-white py-12" style={{marginTop:"20%"}}>
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold mb-4 text-center" style={{ marginBottom: "4%" }}>LES MISSIONS DE GASPI</h2>
+            <h2 className="text-3xl font-bold mb-4 text-center" style={{ marginBottom: "4%" }}> NOS objectifs</h2>
             <div className="" style={{marginLeft:"30%"}}>
               <div className="flex flex-column">
                 <div className="mb-4" style={{marginRight:"1%"}}><FaInfoCircle size={30} color={"white"}/></div>
@@ -159,7 +159,7 @@ function Apropos() {
               <h2 className="text-xl font-bold mb-3" style={{ fontSize: "27px"}}>SE MOBILISER AU PRES DE WAFRICA TV</h2><br/><br/>
               <p className="text-sm mb-4" style={{ fontSize: "20px"}}>En vous enregistrent, vous nous permettez d’agir sur votre entourage de facon expliciteet aussi sur le monde qui vous entourent.</p><br/><br/>
               <div className="flex space-x-3">
-                <Link to="/dons">
+                <Link to="/recrutements">
                   <button className="bg-orange-400 text-white px-4 py-2 rounded-md shadow-md hover:bg-blue-600">s'enregistrez et participer</button><br/><br/>
                 </Link>
               </div>
