@@ -49,7 +49,11 @@ function Programmes() {
         <div className="container mx-auto px-4 max-w-4xl">
           <h2 className="text-3xl font-bold mb-4">En ce moment nos Programmes sur WAFRICA TV</h2>
           <div className="flex justify-between mb-4">
-            <button className="bg-blue-500 text-white px-4 py-2 rounded">Toutes nos programmes vidéo en un clic</button>
+            <button className="bg-blue-500 text-white px-4 py-2 rounded">
+             <a href="http://www.youtube.com/@WafricaTV" className="souscribe-button">
+            Toutes nos programmes vidéo en un clic
+             </a>
+            </button>
           </div>
           <div className="bg-white p-4">
             <main className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
