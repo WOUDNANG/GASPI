@@ -20,7 +20,7 @@ function Apropos() {
         />
         <div className="absolute w-full h-full bg-black opacity-50"></div>
         <h1 className="font-bold absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-xl" style={{ fontSize: "40px", textAlign: "center", transform: "translate(-50%, -50%)" }}>
-                WAFRICATV , au dela des idées recues
+                WAFRICATV : au de-là des idées recues
         </h1>
       </div>
       <div className="max-w-7xl mx-auto p-6">
@@ -160,7 +160,7 @@ function Apropos() {
               <p className="text-sm mb-4" style={{ fontSize: "20px"}}>En vous enregistrent, vous nous permettez d’agir sur votre entourage de facon expliciteet aussi sur le monde qui vous entourent.</p><br/><br/>
               <div className="flex space-x-3">
                 <Link to="/recrutements">
-                  <button className="bg-orange-400 text-white px-4 py-2 rounded-md shadow-md hover:bg-blue-600">s'enregistrez et participer</button><br/><br/>
+                <button className="bg-orange-400 text-white px-4 py-2 rounded-md shadow-md hover:bg-blue-600">s'enregistrez et participer</button><br/><br/>
                 </Link>
               </div>
             </div>

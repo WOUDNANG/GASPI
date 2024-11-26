@@ -112,7 +112,7 @@ function Programmes() {
                   <p className="text-gray-700">De 13h à 14h</p>
                 </div>
                 <div className="bg-white text-black p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 w-1/3 mx-4">
-                  <h3 className="text-xl font-semibold mb-2">Wafrica news suivie de notre programmes interrogeons nous </h3>
+                  <h3 className="text-xl font-semibold mb-2">Wafrica news </h3>
                   <p className="text-gray-700">De 20h à 21h</p>
                 </div>
                 <div className="bg-white text-black p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 w-1/3">

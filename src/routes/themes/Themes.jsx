@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import theme11 from "../../assets/images/themes/theme11.jpg";
+import theme11 from "../../assets/images/themes/theme01.png";
 import theme33 from "../../assets/images/themes/theme33.JPEG";
 import theme4 from "../../assets/images/themes/theme4.jpg";
 import theme5 from "../../assets/images/themes/theme5.jpg";
@@ -34,12 +34,12 @@ const blocks = [
     {
       title: "Action de proximité",
       image: theme77,
-      description: "Les actions de proximité de WAFRICA TV sont des interventions locales et communautaires visant à répondre aux besoins spécifiques des populations dans les régions où l'entreprise est implantée. En s'engageant directement auprès des communautés, Gaspi favorise le dialogue, la collaboration et la mise en place de solutions adaptées aux réalités locales. Ces actions de proximité renforcent les liens avec les bénéficiaires, favorisent l'inclusion sociale et contribuent au développement durable des communautés.",
+      description: "Les actions de proximité de WAFRICA TV sont des interventions locales et communautaires visant à répondre aux besoins spécifiques des populations dans les régions où l'entreprise est implantée. En s'engageant directement auprès des communautés, Wafrica TV favorise le dialogue, la collaboration et la mise en place de solutions adaptées aux réalités locales. Ces actions de proximité renforcent les liens avec les bénéficiaires, favorisent l'inclusion sociale et contribuent au développement durable des communautés.",
     },
     {
       title: "AfriGlam",
       image: theme88,
-      description:"L'Actu Mode , dans le but de promouvoir la mode africaine et ses créateurs, quel que soit le secteur, WafricaTV a conçu l'émission ‘Glam Up’ pour dire glamour,‘Glam up’ est une émission de 26 minutes qui permet à tous les créateurs de mode africains de venir parler de leurs créations et de les présenter. L'émission comprend un animateur et un invité. L'invité est un artiste, soit un styliste, un coiffeur, un producteur d'accessoires avec des tissus africains, des chaussures.  ",
+      description:"L'Actu Mode , dans le but de promouvoir la mode africaine et ses créateurs, quel que soit le secteur, WafricaTV a conçu l'émission ‘Glam Up’ pour dire glamour,‘Glam up’ est une émission de 26 minutes qui permet à tous les créateurs de mode africains de venir parler de leurs créations et de les présenter. L'émission comprend un animateur et un invité. L'invité est un artiste, soit un styliste, un coiffeur, un producteur d'accessoires avec des tissus africains, des chaussures, afin qu'il puisse mieux illustré l'ensemble de tout ses accessoires et produits quil propose !. ",
     },
 ];
 
@@ -70,7 +70,7 @@ function Themes() {
             <a href="/actualites" className="text-white-600 underline">lire la suite</a>.
           </p>
           <Link to="/actualites">
-            <button className="mt-6 bg-red-800 text-white py-2 px-4 rounded hover:bg-red-700 transition duration-300">Toutes les actualités</button>
+            <button className="mt-6 bg-red-800 text-white py-2 px-4 rounded hover:bg-red-700 transition duration-300">Tout nos differents articles</button>
           </Link>
         </div>
       </div>

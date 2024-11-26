@@ -122,7 +122,7 @@ function Actualite() {
       {/* Navigation principale */}
         <nav className="flex justify-center items-center py-3 border-b">
           <a href="/actualites" className="text-lg font-semibold hover:text-red-500 transition duration-300 mx-2">ACTUALITÉS</a>
-          <a href="/actualites" className="text-lg font-semibold hover:text-red-500 transition duration-300 mx-2">AGENDA</a>
+          <a href="/actualites" className="text-lg font-semibold hover:text-red-500 transition duration-300 mx-2">Grille des programmes</a>
           <a href="/actualites" className="text-lg font-semibold hover:text-red-500 transition duration-300 mx-2">ÉVÉNEMENTS PASSÉS</a>
         </nav>
 
@@ -223,47 +223,47 @@ function Actualite() {
     {/* Section Agenda */}
     <section className="bg-orange-400 text-white py-12">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-4 text-center" style={{ marginBottom: "2%", marginTop: "3%" }}>AGENDA</h2>
+        <h2 className="text-3xl font-bold mb-4 text-center" style={{ marginBottom: "2%", marginTop: "3%" }}>Grille de nos programmes</h2>
         <div className="flex flex-wrap justify-center">
           <div className="bg-white text-black p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 w-1/6 m-2">
-            <h3 className="text-xl font-semibold mb-2">Réunion de suivi des projets communautaires</h3>
-            <p className="text-gray-700">30 Juillet 2024</p>
+            <h3 className="text-xl font-semibold mb-2">les Grands Reportages</h3>
+            <p className="text-gray-700">De 12h à 12h30</p>
           </div>
           <div className="bg-white text-black p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 w-1/6 m-2">
-            <h3 className="text-xl font-semibold mb-2">Assemblée générale des bénévoles</h3>
-            <p className="text-gray-700">04 Aout 2024</p>
+            <h3 className="text-xl font-semibold mb-2">Le Point</h3>
+            <p className="text-gray-700">De 12h30 à 13h</p>
           </div>
           <div className="bg-white text-black p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 w-1/6 m-2">
-            <h3 className="text-xl font-semibold mb-2">Atelier sur la participation citoyenne</h3>
-            <p className="text-gray-700">16 Septembre 2024</p>
+            <h3 className="text-xl font-semibold mb-2">VOX FACULTY</h3>
+            <p className="text-gray-700">De 13h à 14h</p>
           </div>
           <div className="bg-white text-black p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 w-1/6 m-2">
-            <h3 className="text-xl font-semibold mb-2">Conférence sur l'environnement</h3>
-            <p className="text-gray-700">8 Octobre 2024</p>
+            <h3 className="text-xl font-semibold mb-2">Zen Po'o</h3>
+            <p className="text-gray-700">De 14h à 15h30</p>
           </div>
           <div className="bg-white text-black p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 w-1/6 m-2">
-            <h3 className="text-xl font-semibold mb-2">Journée d'échange sur la mobilité durable</h3>
-            <p className="text-gray-700">25 Octobre 2024</p>
+            <h3 className="text-xl font-semibold mb-2">La Grande Question </h3>
+            <p className="text-gray-700">De 15h30 à 17h</p>
           </div>
           <div className="bg-white text-black p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 w-1/6 m-2">
-              <h3 className="text-xl font-semibold mb-2">Réunion avec les partenaires locaux</h3>
-              <p className="text-gray-700">3 Novembre 2024</p>
+              <h3 className="text-xl font-semibold mb-2">Grand Reportages </h3>
+              <p className="text-gray-700">De 17h à 17h30</p>
           </div>
           <div className="bg-white text-black p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 w-1/6 m-2">
-          <h3 className="text-xl font-semibold mb-2">Réunion de planification</h3>
-          <p className="text-gray-700">10 Novembre 2024</p>
+          <h3 className="text-xl font-semibold mb-2">la Efe A!</h3>
+          <p className="text-gray-700">De 17h30 à19h</p>
           </div>
           <div className="bg-white text-black p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 w-1/6 m-2">
-              <h3 className="text-xl font-semibold mb-2">Séance de formation</h3>
-              <p className="text-gray-700">30 Novembre 2024</p>
+              <h3 className="text-xl font-semibold mb-2">l' Entretien</h3>
+              <p className="text-gray-700">De 19h à 20h</p>
           </div>
           <div className="bg-white text-black p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 w-1/6 m-2">
-              <h3 className="text-xl font-semibold mb-2">Présentation des objectifs trimestriels</h3>
-              <p className="text-gray-700">02 Decembre 2024</p>
+              <h3 className="text-xl font-semibold mb-2">ProBook</h3>
+              <p className="text-gray-700">De 21h à 22h</p>
           </div>
           <div className="bg-white text-black p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 w-1/6 m-2">
-              <h3 className="text-xl font-semibold mb-2">Brainstorming pour la campagne de Noël</h3>
-              <p className="text-gray-700">15 Decembre 2024</p>
+              <h3 className="text-xl font-semibold mb-2">Brainstorming pour la campagne</h3>
+              <p className="text-gray-700">debut 2025</p>
           </div>
         </div>
       </div>

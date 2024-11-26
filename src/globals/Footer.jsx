@@ -31,17 +31,7 @@ const Footer = () => {
           
         </div>
       </div>
-      <div className="container mx-auto mt-8 grid grid-cols-1 md:grid-cols-4 gap-4" style={{marginLeft: "19%", marginTop:"5%"}}>
-        <div>
-          <img src={logo1} alt="gaspi" className="rounded-50% w-[40%] h-[100%] object-cover"/>
-        </div>
-        <div>
-          <img src={logo2} alt="gaspi" className="rounded-50% w-[40%] h-[100%] object-cover"/>
-        </div>
-        <div>
-          <img src={logo3} alt="gaspi" className="rounded-50% w-[40%] h-[100%] object-cover"/>
-        </div>
-      </div>
+      
     </footer>
   );
 };
