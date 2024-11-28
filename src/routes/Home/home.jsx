@@ -14,15 +14,42 @@ import home10 from "../../assets/images/home/home10.jpg";
 import { getArticles } from "../../services/article";
 import { useEffect } from "react";
 
+import React, { useState } from 'react';
+import { db } from '/Gaspi/Backend/firebase1';  // Importer la référence Firestore
 
 export default function Home() {
-
+  
   // Options de configuration de Splide
 
   useEffect(() => {
     getArticles();
   }, []);
+  
+  const home  = () => {
+    const [email, setEmail] = useState('');  // Stocke l'e-mail de l'utilisateur
+  
 
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    if (email) {
+      try {
+        // Ajouter l'e-mail à Firestore
+        await db.collection('emails').add({
+          email: email,
+          timestamp: firebase.firestore.FieldValue.serverTimestamp(),
+        });
+        alert('E-mail ajouté avec succès !');
+        setEmail('');  // Réinitialiser le champ
+      } catch (error) {
+        console.error('Erreur lors de l\'ajout de l\'e-mail :', error);
+        alert('Il y a eu un problème.');
+      }
+    } else {
+      alert('Veuillez entrer un e-mail.');
+    }
+  };
+ 
   console.log(process.env.REACT_APP_API_URL);
 
   return (
@@ -220,19 +247,25 @@ export default function Home() {
               <h2 className="text-3xl font-bold mb-4 text-center">Lettre d'informations</h2>
               <h3 className="text-1xl font-regular mb-4 text-center">Nous vous tiendrons informé de tout ce qu'il y'a à savoir quant
                  à nos programmes et actualités, alors n'hesitez pas à vous abonner sur nos differents chaines</h3>
-                 <form className="flex flex-col items-center">
+                 <form className="flex flex-col items-center"onSubmit={handleSubmit}>
                 <input
                   type="email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}  // Met à jour l'état
                   className="w-full max-w-md px-4 py-2 text-black rounded mb-4 focus:outline-none"
                   placeholder="Votre email"
                 />
-                <button className="bg-blue-700 py-2 px-4 rounded hover:bg-blue-800 transition duration-300">
-                  <a href="http://www.youtube.com/@WafricaTV" className="souscribe-button">S'abonner</a>
+                <button className="bg-blue-700 py-2 px-4 rounded hover:bg-blue-800 transition duration-300" type="submit">
+                  S'abonner
                 </button>
               </form>   
             </div>
           </section>
+          
       </div>
     </div>
   );
+
+}
+
 }
