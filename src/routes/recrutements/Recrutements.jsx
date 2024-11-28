@@ -13,16 +13,16 @@ function Recrutements() {
 
     const formTitles = {
         volontaire: 'Recrutement Volontaire',
-        benevoles: 'Recrutement Bénévoles',
+        Invité: 'Recrutement invité',
         
-        emplois: 'Recrutement Emplois',
+        Stagiaire: 'Recrutement stagiaire',
     };
 
     const formDescriptions = {
         volontaire: 'Veuillez remplir les informations de base pour devenir un volontaire.',
-        benevoles: 'Veuillez remplir les informations de base pour devenir un bénévole.',
+        Invité : 'Veuillez remplir les informations de base pour particpez à nos émission',
         
-        emplois: 'Veuillez remplir les informations de base pour postuler à un emploi.',
+        Stagiaire: 'Veuillez remplir les informations de base pour postuler à un emploi ( stage).',
     };
 
     return (
@@ -73,20 +73,20 @@ function Recrutements() {
                         Volontaire
                     </button>
                     <button
-                        onClick={() => setSelectedOption('participez à nos emissions')}
+                        onClick={() => setSelectedOption('Invité')}
                         className={`block w-full text-left py-2 px-4 rounded ${
-                        selectedOption === 'benevoles' ? 'bg-gray-700' : ''
+                        selectedOption === 'Invité' ? 'bg-gray-700' : ''
                         }`}
                     >
-                        acteur d'emissions
+                        Invité
                     </button>
                     <button
-                        onClick={() => setSelectedOption('faire un stage ')}
+                        onClick={() => setSelectedOption('Stagiaire')}
                         className={`block w-full text-left py-2 px-4 rounded ${
-                        selectedOption === 'emplois' ? 'bg-gray-700' : ''
+                        selectedOption === 'Stagiaire' ? 'bg-gray-700' : ''
                         }`}
                     >
-                        stagiaire
+                        Stagiaire
                     </button>
                     </nav>
                 </div>
